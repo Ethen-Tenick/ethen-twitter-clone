@@ -2,8 +2,8 @@ import React from 'react'
 import Widget from '../Widget'
 import Feed from '../Feed'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import Message_message from '../subcontainers_components/Message_message'
-import Message_dm_ui from '../subcontainers_components/Message_dm_ui'
+import Message_message from '../Subcontainers_components/Message_message'
+import Message_dm_ui from '../Subcontainers_components/Message_dm_ui'
 
 
 function Message() {
