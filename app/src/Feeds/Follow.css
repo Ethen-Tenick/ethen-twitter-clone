@@ -1,0 +1,38 @@
+.account_follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.profile_infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile_infos img{
+    height: 50px;
+    width:50px;
+    border-radius: 4rem;
+}
+.names_and_tags{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.usernameTwitter{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.usernicknameTwitter{
+    color:rgb(146, 143, 143);
+    font-size: 15px;
+    font-weight: 500;
+}
+.follow_btn{
+    padding: 10px 14px !important;
+    color:white !important;
+    border-radius: 3rem !important;
+}
+
+

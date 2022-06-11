@@ -1,0 +1,18 @@
+
+.each_container_btn{
+    display: flex;
+    align-items:center;
+    cursor:pointer;
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size:18px;
+}
+.each_container_btn:hover{
+    color: var(--twitter-color);
+}
+.MuiSvgIcon-root{
+    padding: 10px;
+}
+
+
+

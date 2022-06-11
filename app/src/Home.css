@@ -1,0 +1,44 @@
+.main_container_home{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 40%;
+    margin-left: 30%;
+    position: fixed;
+    height: 100vh;
+    overflow:scroll;
+}
+.main_container_home::-webkit-scrollbar{
+    display: none;
+
+}
+.input_area{
+    margin-top: 60px;
+}
+
+.home_header{
+    height: 50px;
+    top: 50px;
+    position: fixed;
+    border-bottom: 2px solid grey;
+    background-color: black;
+    z-index: 100;
+}
+.home_header_subcontainer{
+    position:fixed;
+    top:0px;
+    width: 40%;
+    z-index:100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+
+}
+.home_name{
+    padding-left: 10px;
+}
+
+

@@ -1,0 +1,36 @@
+.latest_post{
+    display: flex;
+    padding: 10px;
+}
+.main_container_happening{
+    cursor: pointer;
+}
+.first_container{
+    flex: 0.7;
+}
+.second_container{
+    flex: 0.3;
+}
+.title_post{
+    color:rgb(171, 168, 168);
+    font-size: 15px;
+    font-weight: 600;
+}
+.headline_post{
+    color: white;
+    font-size: 20px;
+}
+.trending_with{
+    color:rgb(171, 168, 168);
+}
+.trending_with a{
+    font-style: none;
+    color: var(--twitter-color);
+}
+.second_container img{
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+

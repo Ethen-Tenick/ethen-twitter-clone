@@ -1,0 +1,76 @@
+.main_container_post{
+    margin-top: 10px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    border-bottom: 1px solid var(--twitter-color);
+}
+.post_container{
+    width: 100%;
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+.user_profile{
+    flex: 0.2;
+    margin-top: 4px;
+}
+.user_profile img{
+    border-radius: 4rem;
+    height: 30px;
+    width: 30px;
+}
+.user_name{
+    margin-right: 5px;
+    font-weight: 800;
+}
+.user_nickname{
+    font-weight: 500;
+    font-size: 12px;
+}
+.the_tweet{
+    margin-left: 5px;
+    font-size: 14;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.top_container{
+    display: flex;
+    justify-content: space-between;
+}
+.first_div{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.images_and_others{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.images_and_others img{
+    border-radius: 10px;
+    width:100%;
+
+}
+.accesories{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    align-items: center;
+
+}
+.like_btn{
+    cursor: pointer;
+}
+.comment_btn{
+    cursor: pointer;
+}
