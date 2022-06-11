@@ -2,7 +2,8 @@ import React from 'react'
 import Widget from '../Widget'
 import Feed from '../Feed'
 import Explore_trend from '../Subcontainers_components/Explore_trend'
-import Post from '../components of sideoptions/Post'
+import Post from '../Home/Post'
+import Explore_happening from '../Subcontainers_components/Explore_happening'
 
 function Explore() {
   return (

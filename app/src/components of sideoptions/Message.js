@@ -10,8 +10,8 @@ function Message() {
   return (
     <div className='main_container'>
 
-      <Widget className='sideoptions'/>
-      
+      <Widget className='sideoptions' />
+
       <div className='message_container_middle'>
         <div className='message_container_middle_header'>
           <div className='message_container_middle_header_top'>
@@ -23,13 +23,13 @@ function Message() {
           </div>
           <div className='message_container_middle_header_bottom'>
             <div className='searcharea'>
-              <SearchOutlinedIcon/>
+              <SearchOutlinedIcon />
               <input className='the_input_area' type='text' placeholder='Search Direct Messages' />
             </div>
           </div>
         </div>
         <div className='message_container_middle_body'>
-          <Message_message/>
+          <Message_message />
         </div>
       </div>
 
@@ -38,9 +38,9 @@ function Message() {
           <div className='message_container_right_header_left'>
             <div className='message_container_right_header_img'>
               <img
-              alt=''
-              src=''
-              />  
+                alt=''
+                src=''
+              />
             </div>
             <div className='message_container_right_header_info'>
               <h3>Ethen</h3>
@@ -66,7 +66,7 @@ function Message() {
         </div>
 
         <div className='message_dm_ui'>
-          <Message_dm_ui/>
+          <Message_dm_ui />
         </div>
       </div>
     </div>

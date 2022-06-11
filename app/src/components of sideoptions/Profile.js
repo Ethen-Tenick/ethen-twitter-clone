@@ -12,8 +12,8 @@ function Profile() {
           <p>@username</p>
         </div>
       </div>
-      <Widget className='sideoptions'/>
-      <Feed className='feed'/>
+      <Widget className='sideoptions' />
+      <Feed className='feed' />
 
       <div className='profile_container'>
         <div className='profile_pictures'>
@@ -46,19 +46,19 @@ function Profile() {
           </div>
           <div className='profile_user_navigation'>
             <nav>
-            <Link to='/usertweets'>Tweets</Link>
-            <Link to='/tweetsandreplies'>Tweets & Replies</Link>
-            <Link to='/media'>Media</Link>
-            <Link to='/likes'>Likes</Link>
-            </nav>            
+              <Link to='/usertweets'>Tweets</Link>
+              <Link to='/tweetsandreplies'>Tweets & Replies</Link>
+              <Link to='/media'>Media</Link>
+              <Link to='/likes'>Likes</Link>
+            </nav>
 
           </div>
 
         </div>
-      <div className='user_profile_choice'> 
-      {/* to show the chosen for the tweets or others above , this should be below */}
-        <Navchoice/> 
-      </div>
+        <div className='user_profile_choice'>
+          {/* to show the chosen for the tweets or others above , this should be below */}
+          {/* <Navchoice/>  */}
+        </div>
       </div>
     </div>
   )
