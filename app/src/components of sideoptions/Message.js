@@ -41,13 +41,13 @@ function Message() {
               alt=''
               src=''
               />  
-            <div/>
+            </div>
             <div className='message_container_right_header_info'>
               <h3>Ethen</h3>
               <p>username</p>
-            <div/>
-          <div/>
-          <div className='message_container_right_header_icon'>#<div/>
+            </div>
+          </div>
+          <div className='message_container_right_header_icon'>#</div>
         </div>
 
         <div className='message_container_right_header_body'>
