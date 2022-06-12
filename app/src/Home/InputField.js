@@ -71,7 +71,7 @@ function InputField() {
             console.log('Data retrieved')
         }
         getposts()
-    }, [post_upload])
+    }, [])
 
 
     return (
